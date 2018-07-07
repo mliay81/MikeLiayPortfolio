@@ -1,0 +1,40 @@
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: blue;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+#logo {
+    margin-top: 50px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    height: 95px;
+    width: 95px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+#nav {
+    margin-left: 0px;
+}

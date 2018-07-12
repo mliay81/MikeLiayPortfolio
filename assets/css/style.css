@@ -1,16 +1,30 @@
-p {
-    font-family: 'Roboto Mono', monospace;
-    color: blue;
-}
-
 body {
-    background-color: lightgray;
+    background-image: url("../images/grainbeltsign.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#blurb {
+    border: 1px solid white;
+    background: white;
+    width: 600px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: .25rem;
+    align-content: center;
+}
 
-.col-sm {
-    padding: 50px;
-    border: 1px solid;
+#profile {
+    float: left;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#cards {
+    margin-top: 80px;
 }
 
 li {
@@ -20,7 +34,3 @@ li {
 a {
     color: black;
 }
-
-/* #nav {
-    margin-left: 0px;
-} */

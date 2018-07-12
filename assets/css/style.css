@@ -18,13 +18,9 @@ body {
     float: left;
 }
 
-.border {
-    border: 1px solid black;
-    padding: 5px;
-}
 
 #cards {
-    margin-top: 80px;
+    margin-top: 8%;;
 }
 
 li {
@@ -33,4 +29,10 @@ li {
 
 a {
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-3 {
+        width: 15%;
+      }
 }

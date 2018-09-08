@@ -14,20 +14,60 @@ body {
     align-content: center;
 }
 
+#contact {
+    border: 1px solid white;
+    background: white;
+    width: 600px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: .25rem;
+    align-content: center;
+    padding: 5px;
+}
+
+#pic {
+    border: none;
+    background: white;
+    background-color: #f8f9fa;
+    padding: 0;
+    
+}
+
+#words {
+    padding-top: 5%;
+    padding-left: 5%;
+    background: white;
+    background-color: lightgrey;
+    
+}
+
+#content {
+    border-radius: .25rem;
+    align-content: center;
+    width: 800px;
+    margin: auto;
+    border-radius: .25rem;
+    align-content: center;
+}
+
 #profile {
     float: left;
 }
 
 
 #cards {
-    margin-top: 8%;;
+    margin-top: 8%;
 }
 
 li {
     padding-right: 15px;
 }
 
-a {
+i {
+    float: left;
+}
+
+a, h4 {
     color: black;
 }
 
